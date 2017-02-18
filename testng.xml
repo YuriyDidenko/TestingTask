@@ -5,7 +5,7 @@
         <classes>
             <class name="ProvTest">
                 <methods>
-                    <include name="textAvailabilityTest"/>
+                    <include name="testTextAvailability"/>
                 </methods>
             </class> <!-- ProvTest -->
         </classes>

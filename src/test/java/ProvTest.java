@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class ProvTest {
 
     @Test(description = "checks availability of text", dataProvider = "textDataProvider")
-    public void textAvailabilityTest(String providersText) {
+    public void testTextAvailability(String providersText) {
 
         HomePage homePage = open("http://book.theautomatedtester.co.uk/", HomePage.class);
         // would be good to check if opening was successful
